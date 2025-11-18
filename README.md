@@ -52,6 +52,6 @@
 
 ## 🎲 Альтерантивные примеры 
 1. [Телеграмм чат бот на .Net](https://github.com/VladimirRepp/CS---TelegramChatBot)
-2. [.Net чат на UPD сокете](https://github.com/VladimirRepp/CS---TelegramChatBot](https://github.com/VladimirRepp/CS---UpdChat))
+2. [.Net чат на UPD сокете](https://github.com/VladimirRepp/CS---UpdChat)
 3. [.Net чат на TCP сокете](https://github.com/VladimirRepp/CS---TcpChat)
 
