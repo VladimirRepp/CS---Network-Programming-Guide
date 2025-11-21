@@ -12,6 +12,9 @@ class Program
         IPAddress ip = IPAddress.Parse("192.168.1.1");
         Console.WriteLine($"IP-адрес: {ip}");
 
+        IPHostEntry host = Dns.GetHostEntry(ip);
+        Console.WriteLine($"Доменное имя: {host.HostName}");
+
         // Создание IPEndPoint
         IPEndPoint endPoint = new IPEndPoint(ip, 8080); // Порт 8080
         Console.WriteLine($"Конечная точка: {endPoint}");
@@ -22,3 +25,4 @@ class Program
         Console.WriteLine($"Локальная конечная точка: {localEp}");
     }
 }
+
